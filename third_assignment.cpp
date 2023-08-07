@@ -56,8 +56,10 @@ if(str[j]>max)//here this condition check that j-th value is greater than max va
  {
   printf(" is %d",(value-55)+1);//This statement will print the Highest alphabetic base value in string
  }
+  else if(value=='9')
+   printf("is 10");
  else
- printf("%c",value+1);//This statement will print the Highest numeric base value in string
+ printf(" is %c",value+1);//This statement will print the Highest numeric base value in string
 }
 //Output:-The Highest Base of 1CD1 is 14
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~COMPLETE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
